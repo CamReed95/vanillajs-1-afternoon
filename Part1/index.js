@@ -69,5 +69,13 @@ if (bottomRight !== undefined && bottomRight === bottomLeft && bottomRight === b
 alert(`${bottomRight} is the winner`);
 return;
 
-
-
+let boardFull = true;
+for (let i = 0; i <= 8; i++) {
+    if (board[i] === undefined) {
+        boardFull = false
+    } 
+}
+    if (boardFull === true {
+        alert(`cat's game`);
+        }
+    )
